@@ -38,6 +38,27 @@
   
   @media (min-width: 768px) and (max-width: 1024px) {
     
+       header{
+      height: 100vh !important;
+    }
+      
+      .banner .banner-inner{
+          margin-top: 50px;
+      }
+      
+      .banner .banner-inner-2{
+          display: none;
+      }
+
+    .banner .banner-inner h2{
+      font-size: 2.6rem;
+    }
+
+    .banner .banner-inner p{
+      font-size: 1.5rem;     
+    }
+     
+      
     #course .course-item{
       text-align: center;
       margin-bottom: 30px;
@@ -49,6 +70,19 @@
     .person{
       margin-bottom: 30px !important;
     }
+      .gallary-inner .gallary-01,
+      .gallary-inner .gallary-02{
+          text-align: center;
+      }
+      
+      .gallary-inner .gallary-01 img,
+      .gallary-inner .gallary-02 img{
+          width: 450px;
+      }
+      .gallary-inner .gallary-01 .gallary-img,
+      .gallary-inner .gallary-02 .gallary-img{
+          margin: 0px;
+      }
     
   }
   
@@ -59,6 +93,27 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
+       header{
+      height: 100vh !important;
+    }
+      
+      .banner .banner-inner{
+          margin-top: 50px;
+      }
+      
+      .banner .banner-inner-2{
+          display: none;
+      }
+
+    .banner .banner-inner h2{
+      font-size: 2.6rem;
+    }
+
+    .banner .banner-inner p{
+      font-size: 1.5rem;     
+    }
+     
+      
     #course .course-item{
       text-align: center;
       margin-bottom: 30px;
@@ -70,6 +125,18 @@
     .person{
       margin-bottom: 30px !important;
     }
+      .gallary-inner .gallary-01 img,
+      .gallary-inner .gallary-02 img{
+          width: 450px;
+      }
+      .gallary-inner .gallary-01 .gallary-img,
+      .gallary-inner .gallary-02 .gallary-img{
+          margin: 0px;
+      }
+      .gallary-inner .gallary-01,
+      .gallary-inner .gallary-02{
+          text-align: center;
+      }
     
   }
   
@@ -80,6 +147,26 @@
   
   @media (min-width: 481px) and (max-width: 767px) {
     
+      header{
+      height: 100vh !important;
+    }
+      
+      .banner .banner-inner{
+          margin-top: 50px;
+      }
+      
+      .banner .banner-inner-2{
+          display: none;
+      }
+
+    .banner .banner-inner h2{
+      font-size: 2.6rem;
+    }
+
+    .banner .banner-inner p{
+      font-size: 1.5rem;     
+    }
+      
     #course .course-item{
       text-align: center;
       margin-bottom: 30px;
@@ -94,8 +181,21 @@
     #course .vactor3{
       top: 120px;
     }
+      #course .vactor4{
+            right: 20px;
+      }
+      #about .about-text{
+      text-align: center;
+      margin: 30px 0px;
+    }
+      #about::before{
+          width: 80%;
+      }
+      #about .vactor5{
+          left: 5%;
+      }
     #download{
-      background-position-x: right -125px;
+      background-position-x: -950px;
     }
     .inner-text h4{
       margin-left: 0px;
@@ -103,7 +203,18 @@
     .inner-text .btn-download{
       margin-left: 0px;
     }
+      #register .vactor7{
+          right: 30px;
+      }
     
+      .gallary-inner .gallary-01 img,
+      .gallary-inner .gallary-02 img{
+          width: 450px;
+      }
+      .gallary-inner .gallary-01 .gallary-img,
+      .gallary-inner .gallary-02 .gallary-img{
+          margin: 0px;
+      }
   }
   
   /* 
@@ -114,8 +225,16 @@
   @media (min-width: 320px) and (max-width: 480px) {
 
     header{
-      height: 80vh !important;
+      height: 100vh !important;
     }
+      
+      .banner .banner-inner{
+          margin-top: 50px;
+      }
+      
+      .banner .banner-inner-2{
+          display: none;
+      }
 
     .banner .banner-inner h2{
       font-size: 2.6rem;
@@ -129,10 +248,19 @@
       text-align: center;
       margin-bottom: 30px;
     }
+      #course .vactor4{
+            right: 20px;
+      }
     #about .about-text{
       text-align: center;
       margin: 30px 0px;
     }
+      #about::before{
+          width: 80%;
+      }
+      #about .vactor5{
+          left: 5%;
+      }
     .person{
       width: 250px !important;
       margin-bottom: 30px !important;
@@ -151,7 +279,7 @@
       z-index: -1;
     }
     #download{
-      background-position-x: right -205px;
+      background-position-x: -1028px;
     }
     .inner-text h4{
       margin-left: 0px;
@@ -159,5 +287,16 @@
     .inner-text .btn-download{
       margin-left: 0px;
     }
+      .gallary-inner .gallary-01 img,
+      .gallary-inner .gallary-02 img{
+          width: 300px;
+      }
+      .gallary-inner .gallary-01 .gallary-img,
+      .gallary-inner .gallary-02 .gallary-img{
+          margin: 0px;
+      }
+      #register .vactor7{
+          right: 20px;
+      }
     
   }
